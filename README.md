@@ -6,7 +6,7 @@ This is an alternative strategy to [Chris Wilson's A Tale Of Two Clocks](https:/
 
 # Demo
 
-The demo loads a song, and allow to play/pause and scrub using a slider.
+The [demo](https://codesandbox.io/s/webaudio-double-buffer-example-enc1nk) loads a song, and allow to play/pause and scrub using a slider.
 
 All the double-buffer logic is in `src/transport.mjs`.
 
@@ -23,11 +23,10 @@ Long delays (especially those approaching the buffer size) mean the app has less
 
 </details>
 
+
 <p align="center">
-
-![App user interface](/images/double-buffer-ui.jpg)
-
-<p>
+  <img height="200" src="/images/double-buffer-ui.jpg" />
+</p>
 
 ## Serving locally
 
